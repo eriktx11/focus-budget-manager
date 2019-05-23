@@ -1,0 +1,40 @@
+{
+  "name": "focus-budget-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.com/gdomaradzki/focus-gestor-orcamentos#readme",
+"_moduleAliases": {
+    "@root": ".",
+    "@BudgetManager": "./services/BudgetManagerAPI",
+    "@BudgetManagerModels":"./services/BudgetManagerAPI/app/models",
+    "@BudgetManagerAPI":"./services/BudgetManagerAPI/config/app.js",
+    "@config": "./services/BudgetManagerAPI/config/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "module-alias": "^2.2.0",
+    "mongoose": "^5.5.10",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eriktx11/focus-budget-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eriktx11/focus-budget-manager/issues"
+  },
+  "homepage2": "https://github.com/eriktx11/focus-budget-manager#readme"
+}
